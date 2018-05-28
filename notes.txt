@@ -6,3 +6,8 @@ npm install webpack-cli --save-dev
 npm install babel-core babel-loader babel-preset-env --save-dev
 
 npm install html-webpack-plugin html-loader --save-dev
+
+eval $(ssh-agent)
+ssh-add
+
+npm install webpack-dev-server --save-dev
