@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>webpack 4 quickstart</title>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+    <title>webpack 4 quickstart (css)</title>
 </head>
 <body>
-    <h1>Webpack 4</h1>
+    <h1>Webpack 4 (css)</h1>
     <h2>WSL & Git</h2>
-    <div id="app">
+    <div id="app">some text test
     </div>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 </body>
 </html>
